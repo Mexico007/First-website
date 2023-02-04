@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+}
+
+.container{
+    background-color: #e4f9f5;
+    width: 100%;
+}
+
+.container .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cloud1{
+    width: 150px;
+    margin-left: 750px;
+    margin-bottom: 30px;
+}
+
+.hero-title{
+    font-family: "Sacramento", cursive;
+    font-size: 562.5%;
+    line-height: 2;
+    color: #66bfbf;
+}
+
+.hero-paragraph{
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.cloud2{
+    width: 150px;
+    margin-right: 750px;
+    margin-top: 30px;
+}
+
+.mountain{
+    height: 400px;
+    width: 500px;
+}
+
+.hello-container .hello-wrapper{
+ display: flex;
+ flex-direction: column;  
+ align-items: center;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+hr{
+width: 4%;
+border-width: 6px;
+border-style: dotted;
+border-bottom: none;
+color: #eaf6f6;
+}
+
+.hello-image{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+.hello-heading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: #66bfbf;
+}
+
+.hello-paragraph{
+    padding-bottom: 50px;
+    color: black;
+    font-size: 1em;
+    font-family: "Monserrat", sans-serif;
+}
+
+.skill-container .skill-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.my-skill-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+.tailor, .banking{
+    display: flex;
+    gap: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    align-items: center;
+    
+}
+
+.tailor-image, .bank-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.my-skill, .tailor-heading, .banking-heading{
+    font-family: "Monserrat", sans-serif;
+    font-size: 2em;
+    color: #66bfbf;
+    padding-bottom: 30px;
+}
+
+.tailor-paragraphs, .banking-paragraphs{
+    color: black;
+    font-size: 1em;
+    font-family: "Monserrat", sans-serif;
+}
+
+.touch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.touch-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.touch-wrapper h1{
+    font-family: "Monserrat", sans-serif;
+    color: #66bfbf;
+}
+
+.touch-wrapper h3{
+    font-family: "Monserrat", sans-serif;
+    color: #11999e;
+}
+.touch-wrapper p{
+    font-family: "Monserrat", sans-serif;
+    color: #40514e;
+}
+
+.touch-wrapper button{
+    background-color: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Monserrat", sans-serif;
+}
+
+.touch-wrapper button:hover{
+    background-color: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.footer-container{
+    background-color: #11cdd4;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-wrapper .links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.links a{
+    color: #11999e;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.footer-wrapper .copyright{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
